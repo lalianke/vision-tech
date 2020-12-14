@@ -1,0 +1,123 @@
+    /*advertise section*/
+    .advetise{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-attachment: fixed;
+        flex-direction:column;
+        color: rgb(12, 6, 6);
+        width: 30rem;
+    }
+    .advetise h1{
+        font-size:1rem;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;
+        margin-bottom:2rem;
+    }
+    .advetise .btn{
+       width: 10rem;
+       height:2.5rem;
+       color: white;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: rgb(143, 129, 221);
+       padding: 0.8rem;
+       border-color: rgb(237, 240, 237);
+       align-self: flex-start;
+        
+    }
+.client-number{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: 3rem auto;
+   
+}
+.client-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    height: 4rem;
+}
+.client-item h1{
+    font-size: 3rem;
+    margin-top: -1rem;
+    color: rgb(119, 5, 119);
+    
+}
+.client-item p{
+    font-size: 1rem;
+    margin-top: -1rem;
+    font-weight: bold;
+}
+.show-bussiness{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-left: 1rem;
+    margin:4rem 0;
+    grid-gap: 4rem;
+}
+.show-bussines-image{
+    display: none;
+    flex-basis: 65%;
+    margin-top: 2rem;
+    position: relative;
+}
+.show-bussiness-infos {
+    flex-basis: 45%;
+    margin-left: 1.5rem;
+}
+.show-bussiness-infos h3{
+   color: rgb(168, 25, 25);
+   font-size: 1.8rem;
+}
+.show-bussiness-infos h1{
+    color: rgb(13, 11, 107);
+    font-size: 2.5rem;
+ }
+ .show-bussiness-infos .btt{
+      height: 3rem;
+      width: 15rem;
+      color: white;
+      background-color:rgb(168, 25, 25);
+      font-size: 1rem;
+      margin-top: 1.5rem;
+}
+.show-bussiness-infos p{
+    margin-bottom: 1.5rem;
+} 
+
+
+.shadow{
+    background-color: rgb(142, 172, 201);
+    height: 30rem;
+    width: 40rem;
+    position: absolute;
+    border-radius: 50%;
+    top: 125rem;
+    right: -7.5rem;
+    z-index: -100;
+}
+
+.services-resume{
+       display: grid;
+       grid-template-columns: 20rem 32rem;
+       justify-content: space-around;
+       align-items: center;
+       margin: 3rem auto;
+       width: 100%;
+}
+
+.services-resume h1{
+    color: rgb(9, 6, 56);
+}
+
+
+ 

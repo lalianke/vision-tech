@@ -1,0 +1,115 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    width: 100vw;
+    height: 20rem;
+    margin-bottom: 12rem;
+}
+
+.contact__container{
+    display: grid;
+    grid-template-columns: 2.2fr 1fr;
+    justify-content: space-around;
+    width: 95vw;
+    margin: 2.5rem auto;
+}
+.contact__form h1{
+      font-size: 2.2rem;
+      color: rgb(17, 3, 49);
+}
+.contact__form {
+   color: rgb(145, 145, 7);
+   font-size: 1rem;
+}
+.contact__form{
+    width: 100%;
+}
+
+.form__input{
+    margin: 1rem 0;
+}
+
+.form__input input{
+    height: 2rem;
+    width: 18rem;
+    margin-right: 0.7rem;
+    background-color:  #f4f4f4;
+    border: 1px solid  #908fed;
+    outline: none;
+}
+.form__message__field input{
+    width: 92%;
+    height: 6rem;
+    background-color: #f4f4f4;
+    border: 1px solid  #908fed;
+    outline: none;
+    margin-top: 1.5rem;
+}
+.contact__btn{
+    margin-top: 1rem;
+    width: 11rem;
+    height: 3rem;
+    background-color: rgb(38, 140, 6);
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: none;
+}
+input{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.contact__infos{
+    padding: 0 2rem;
+    border: none;
+    border-left: 2px solid #c8c7f7;
+}
+table{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+ table tr td{ 
+    margin: 1rem;
+    height: 3rem;
+}
+.far{
+    font-size: 1rem;
+}
+.fas{
+    font-size: 1rem;
+}
+
+table tr td:first-child{
+    padding-right: 1rem;
+   
+    color: rgb(218, 95, 14);
+}
+.table tr td:last-child{
+     font-weight: bold;
+}
+.social__contact{
+    width: 100%;
+}
+.social__contact ul{
+    display: flex;
+    list-style: none;
+    padding-left:0;
+    width: 100%;
+}
+.social__contact ul li{
+    margin-right: 2rem;
+    margin-left: 0;
+}
+
+.social__contact a{
+    color: rgb(81, 82, 8);
+    padding-left: 0;
+}

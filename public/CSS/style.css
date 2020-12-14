@@ -1,0 +1,121 @@
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+background-color: #ffffff;
+}
+                  /* navbar section*/
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    border-bottom: 3px solid rgb(243, 243, 247);
+}
+.navbar{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(26, 13, 13);
+    padding-left: 4rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+     }
+navbar ul li a:hover{
+    color: rgb(212, 212, 44);
+}
+
+.navbar ul{
+    list-style: none;
+    margin-right: 1.5rem;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color:  rgb(6, 2, 41);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+.bars{
+    color: white;
+    display: none;
+}
+
+
+@media screen and (max-width: 700px){
+    .nav-links.show-links{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+        width: 200px;
+        color: black;
+        margin-top: 70px;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        background-color: black;
+        font-size: 14px;
+        transform: translateX(0px);
+        transition: all 700ms;
+    }
+   
+    .nav-links {
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+        height: 350px;
+        width: 200px;
+        color: black;
+        margin-top: 70px;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        background-color: black;
+        font-size: 14px;
+        transform: translateX(-250px);
+    }
+
+    a{
+        color: white;
+    }
+
+    .bars{
+        display: block;
+        font-size: 25px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 30px;
+    }
+}
+
