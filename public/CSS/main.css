@@ -45,6 +45,7 @@
 .about{
     text-align: center;
     background-color: rgb(255, 255, 255);
+
 }
 
 .about-container{
@@ -88,7 +89,7 @@
                              
                                   /* services  section*/
 .services{
-    width: 100%;
+    width: 100vw;
     background-size: cover;
     background-position: center;
     background-color: #ffffff;
@@ -100,7 +101,7 @@
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-gap: 1.9rem;
-    width: 80%;
+    width: 80vw;
     height: 20rem;
     padding: 0.625rem 0.25rem;
 }
@@ -151,7 +152,7 @@
 
                    /*our nteam section*/
 .ourteam{    
-    display: none;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,7 +164,7 @@
 }
 .ourteam-container{
     margin: 0 auto;
-    width: 85%;
+    width: 85vw;
     height: 22rem;
     display: grid;
     justify-content: center;
