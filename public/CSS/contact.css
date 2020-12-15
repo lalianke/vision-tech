@@ -26,7 +26,7 @@ body{
    font-size: 1rem;
 }
 .contact__form{
-    width: 100%;
+    background: transparent;
 }
 
 .form__input{
@@ -42,7 +42,7 @@ body{
     outline: none;
 }
 .form__message__field input{
-    width: 92%;
+    width: 37.3rem;
     height: 6rem;
     background-color: #f4f4f4;
     border: 1px solid  #908fed;

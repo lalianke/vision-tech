@@ -2,19 +2,17 @@
           /* showcase section*/
 
           .showcase{
-            margin: 10rem 0;
+            margin: 1.5rem 0;
             display: grid;
             grid-template-columns: 1fr 1fr;
             justify-content: space-around;
             align-items: center;
-            width: 85vw;
-            padding-left: 1rem;
-            margin:1.5rem 0;
+            width: 90vw;
             grid-gap: 4rem;
             position: relative;
         }
-        .showcase-image{
-            margin-left: 3rem;
+        .show-case-image{
+            margin-left: 1rem;
         }
         .showcase-infos {
             flex-basis: 45%;
@@ -89,19 +87,19 @@
                              
                                   /* services  section*/
 .services{
-    width: 100vw;
+    width: 100;
     background-size: cover;
     background-position: center;
     background-color: #ffffff;
 }
-.container-sevices{
+.container-services{
     margin: 0 auto;
     display: grid;
     justify-content: center;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr ;
     grid-gap: 1.9rem;
-    width: 80vw;
+    width: 90vw;
     height: 20rem;
     padding: 0.625rem 0.25rem;
 }
@@ -148,6 +146,10 @@
        font-weight: bold;
        text-transform: capitalize;
        margin-top: -1rem;
+}
+.services-resume{
+    width: 90vw;
+    padding: 0;
 }
 
                    /*our nteam section*/
