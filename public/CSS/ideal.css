@@ -1,24 +1,32 @@
 .ideal{
     display: grid;
-    grid-template-columns: 30rem 1fr;
+    grid-template-columns: 1fr 1fr;
     justify-content: space-around;
     align-items: center;
-    padding: 4rem;
+    width: 85vw;
+    margin: 1rem auto;
 }
+
 
 .ideal-itemA{
     margin: 1.5rem;
+    text-align: left;
+}
+.ideal-itemA p{
+    margin-top: 0.2rem;
+   
 }
 .ideal-itemA h1{
     font-size: 3rem;
     color: rgb(13, 13, 104);
+    margin-top: 0.2rem;
     
 }
 .ideal-itemA h2{
     font-size: 1.8rem;
     color: rgb(87, 46, 7);
-    align-items: flex-start;
-    margin-left: -14rem;
+    justify-content: flex-start;
+    margin-left: -18rem;
 }
 .ideal-form{
     display: flex;
@@ -39,7 +47,7 @@
     margin: 0 2.2rem;
     padding: 1.5rem;
     border-radius: 100%;
-    color:  rgb(44, 27, 1);
+    color:  rgb(150, 125, 221);
     background-color: rgb(255, 255, 255);
     height: 2rem;
     width: 2rem;

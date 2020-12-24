@@ -12,9 +12,9 @@ body{
 
 .contact__container{
     display: grid;
-    grid-template-columns: 2.2fr 1fr;
+    grid-template-columns: 1.8fr 1fr;
     justify-content: space-around;
-    width: 95vw;
+    width: 80vw;
     margin: 2.5rem auto;
 }
 .contact__form h1{
@@ -34,15 +34,15 @@ body{
 }
 
 .form__input input{
-    height: 2rem;
-    width: 18rem;
+    height: 2.5rem;
+    width: 20rem;
     margin-right: 0.7rem;
     background-color:  #f4f4f4;
     border: 1px solid  #908fed;
     outline: none;
 }
 .form__message__field input{
-    width: 37.3rem;
+    width: 41.1rem;
     height: 6rem;
     background-color: #f4f4f4;
     border: 1px solid  #908fed;
@@ -53,7 +53,7 @@ body{
     margin-top: 1rem;
     width: 11rem;
     height: 3rem;
-    background-color: rgb(38, 140, 6);
+    background-color: rgb(90, 45, 4);
     color: white;
     font-size: 1rem;
     text-transform: uppercase;
@@ -65,9 +65,9 @@ input{
 }
 
 .contact__infos{
-    padding: 0 2rem;
+    padding: 0 1rem;
     border: none;
-    border-left: 2px solid #c8c7f7;
+    border-left: 2px solid #ffffff;
 }
 table{
     margin: 1rem 0;
